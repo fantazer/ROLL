@@ -1,0 +1,32 @@
+mixin header()
+	//block header
+	.top-wrap
+		.header-cont
+			.main-cont
+				.header
+					.header-inf
+						.header-inf-logo
+							img(src="img/logo.png", alt="")
+						.header-town
+							span Выберите город:
+							a(href="#").header-town-link Набережные челны
+					.header-contact
+						.header-contact-inf
+							.header-contact-inf-text доставка блюд
+							+icon("arrow-right","icon")
+							.header-contact-inf-numb 8 800 100 750
+						a(href="#").header-contact-get обратный звонок
+					.header-menu-togl
+						+icon("menu","icon")
+		.menu
+			.menu-filter
+			.main-cont
+				.menu-wrap
+					a(href="#").menu-el.menu-el--active Франчайзи 
+					a(href="#").menu-el  поставщик 
+					a(href="#").menu-el  аренда
+					a(href="#").menu-el  реклама
+
+
+
+	//block header end

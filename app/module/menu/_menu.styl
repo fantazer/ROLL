@@ -1,0 +1,54 @@
+.menu-right
+	+below(1200px)
+		width 100%
+		transform translateX(100%)
+	tr(all)
+	f()
+	position fixed
+	height 100vh
+	top 0
+	right 0
+	z-index 10
+	transform translateX(400px)
+.menu-toggle
+	+below(1200px)
+		display none
+	width 70px
+	flex(mid)
+	background-color rgba(0, 0, 0, 0.5)
+	height 100%
+	cp()
+	.icon
+		size 20px
+		fill white
+.menu-cont
+	+below(1200px)
+		width 100%
+		padding 20px 10px
+	width 400px
+	background white
+	height 100% 
+	padding 40px
+	height 100%
+.menu-right-open
+	transform translateX(0px)
+	z-index 170
+	.icon
+		fill orange
+.menu-mobile-cont
+	+above(1200px)
+		display none
+	flex(mid)
+	fl()
+	.icon
+		size 30px
+		fill black
+		margin-bottom 20px
+		cp()
+.menu-mobile-town
+	color orange
+	text-decoration underline
+.menu-mobile-phone
+	font-weight bold
+	font-size 16px
+	margin-bottom 20px 

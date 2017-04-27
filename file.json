@@ -1,0 +1,17 @@
+{
+	"block":{
+		"header":"header",
+		"footer":"footer",
+		"section-about":"section-about",
+		"section-history":"section-history",
+		"section-arenda":"section-arenda",
+		"section-kriter":"section-kriter",
+		"section-tech":"section-tech",
+		"menu":"menu"
+	},
+	"page":{
+		"index":"index",
+		"arenda":"arenda"
+	}
+	
+}
