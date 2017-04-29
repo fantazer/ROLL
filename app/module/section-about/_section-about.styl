@@ -5,6 +5,15 @@
 		height 100vh!important
 		.fp-tableCell
 			height 100vh!important
+.section-history-wrap
+	+below(1200px)
+		display block
+	+below(768px)
+		margin-top 35%
+	center(1200px,0)
+	flex(between)
+	align-items flex-start
+	margin-top 15%
 .section-filter-wraper
 	position relative
 	width 100%
@@ -12,40 +21,37 @@
 	.main-cont
 		height 100%
 .section-filter__title
-	+below(1400px)
-		top 0
-		margin-top 80px
+	
 	+below(768px)
-		position initial
+		/*position initial
 		top initial
-		left initia
+		left initia*/
 		font-size 28px
 	color #ffffff
 	font-family Roboto
 	font-size 80px
 	font-weight bold
 	text-transform uppercase
-	position absolute
+	width 40%
+	text-align left
+	/*position absolute
 	top 35%
-	left 10%
+	left 10%*/
 .section-filter__text
 	+below(1400px)
-		top 0
-		width 40%
-		margin-top 80px
+		width 60%
+	+below(1200px)
+		width 100%
 	+below(768px)
-		position initial
+		/*position initial
 		top initial
-		left initia
+		left initia*/
 		width 100%
 		font-size 12px
 		line-height initial
-		margin-top 0
 	font-family Roboto
 	font-size 16px
 	line-height 32px
 	color white
-	width 35%
-	position absolute
-	top 30%
-	right 10%
+	width 50%
+	

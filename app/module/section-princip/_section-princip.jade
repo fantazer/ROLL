@@ -1,0 +1,69 @@
+mixin section-princip()
+	//block section-princip
+	.section.section-princip
+		.section-filter
+		.section-princip-wrap
+			.section-princip-header
+				.main-cont 
+					.section-princip-header-cont
+						.section-princip__titile Наши принципы
+						.section-princip-content
+							.section-princip-col
+								.section-princip-col-title Качество
+								.section-princip-col-text Мы заботимся о клиентах, поэтому не можем позволить себе использовать несвежие продукты и некачественные товары. «И так сойдёт» — это не про нас.
+
+							.section-princip-col
+								.section-princip-col-title Доверие
+								.section-princip-col-text Открытость и доверие ведёт к успеху — мы доказали это, поэтому строим отношения с порядочными людьми, которым нечего скрывать и стесняться.
+
+							.section-princip-col
+								.section-princip-col-title Развитие
+								.section-princip-col-text Не ошибается тот, кто ничего не делает. Главное — признавать ошибки и исправлять их причины. Мы так работаем и ждём того же подхода от партнёров.
+								
+			.section-princip-footer
+				.main-cont
+					.tabs
+						.section-princip-tab
+							.section-princip-tab-title Продукты
+							.section-princip-tab-list.tab-hide
+								.section-princip-tab-list_el
+									a(href="#") Колличество продуктов
+									a(href="#") Условия
+									a(href="#") Анкета
+						.section-princip-tab
+							.section-princip-tab-title Оборудование
+							.section-princip-tab-list.tab-hide
+								.section-princip-tab-list_el
+									a(href="#") Колличество продуктов
+									a(href="#") Условия
+									a(href="#") Анкета
+						.section-princip-tab
+							.section-princip-tab-title Другое
+							.section-princip-tab-list.tab-hide
+								.section-princip-tab-list_el
+									a(href="#") Колличество продуктов
+									a(href="#") Условия
+									a(href="#") Анкета
+				.slider
+					.main-cont
+						.slider-title Счётчики ключевых продуктов за квартал 
+						.wrap-slider.owl-carousel
+							- for (var i = 0; i < 3; i++)
+								.el-slider
+									.el-slider-img(style="background-image: url(../img/item-1.png) ")
+									.el-slider-title Лосось
+									.el-slider-weght 2050 кг
+								.el-slider
+									.el-slider-img(style="background-image: url(../img/item-2.png) ")
+									.el-slider-title Сыр
+									.el-slider-weght 2050 кг
+								.el-slider
+									.el-slider-img(style="background-image: url(../img/item-3.png) ")
+									.el-slider-title Грибы
+									.el-slider-weght 2050 кг
+								.el-slider
+									.el-slider-img(style="background-image: url(../img/item-4.png) ")
+									.el-slider-title Имбирь
+									.el-slider-weght 2050 кг
+
+	//block section-princip end

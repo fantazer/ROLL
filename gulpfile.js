@@ -455,7 +455,7 @@ gulp.task('build:ftp',function(){
 		'svg',
 		'make',
 		//'zip',
-		//'screenshot',
+		'screenshot',
 		//'guide',
 		'ftp'
 		//'template'

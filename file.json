@@ -7,11 +7,16 @@
 		"section-arenda":"section-arenda",
 		"section-kriter":"section-kriter",
 		"section-tech":"section-tech",
+		"section-princip":"section-princip",
+		"section-table":"section-table",
+		"section-anketa":"section-anketa",
+		"section-postavshick":"section-postavshick",
 		"menu":"menu"
 	},
 	"page":{
 		"index":"index",
-		"arenda":"arenda"
+		"arenda":"arenda",
+		"postavka":"postavka"
 	}
 	
 }

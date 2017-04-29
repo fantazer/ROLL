@@ -1,20 +1,32 @@
 .section-arenda
-	bg-full()
+	+below(1200px)
+		bgi('bg-3-light.jpg')
+		background-size  contain
+		background-position 0px 40px
+		background-color #e8e8e8
 	bgi('bg-3.jpg')
+	bg-full()
 	.main-cont
 		min-height 100vh
 		height 100%
 .section-arenda-wrap
 	center(1200px,0)
+	+below(1200px)
+		padding-top 100px
 	padding-top 170px
 //.section-arenda-wrap
 .section-arenda__head
+	+below(1200px)
+		fw()
 	flex(between)
 	align-items flex-start
 	margin-bottom 5vh
 	+below(1440px)
 		margin-bottom 5vh
 .section-arenda__titile 
+	+below(1200px)
+		width 100%
+		font-size 28px
 	color #023c76
 	font-family Roboto
 	font-size 50px
@@ -24,17 +36,30 @@
 	+below(1440px)
 		font-size 14px
 		line-height 20px
+	+below(1200px)
+		width 100%
 	width 70%
 	color #000000
 	font-family Roboto
 	font-size 16px
 	line-height 32px
 .section-arenda__cont
+	+below(1200px)
+		fw()
+		margin-bottom 30px
 	flex(between)
 	//height 100%
 .section-arenda__col
+	+below(1200px)
+		width 100%
+		margin-bottom 20px
 	width 30%
 .section-arenda__col-title 
+	+below(1440px)
+		padding 10px
+		margin-bottom 20px
+	+below(1200px)
+		font-size 12px
 	width 100%
 	padding 20px
 	color #023c76
