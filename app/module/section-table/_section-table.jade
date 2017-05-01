@@ -1,3 +1,76 @@
 mixin section-table()
 	//block section-table
+	.section.section-table
+		.section-filter
+		.section-table-wrap
+			.section-table-header
+				.main-cont 
+					.section-table-header-cont
+						.section-table__titile Таблица для участия в тендере
+						.tender
+							.tender-head
+								.tender-head-el
+									.tender-head-title *название компании
+									.tender-input
+										input(type="text")
+								.tender-head-el
+									.tender-head-title *контактная информация
+									.tender-input
+										input(type="text")
+						
+							
+							.tender-table
+								.table-head
+									.table-head-el Ключевая продукция
+									.table-head-el Цена за кг/руб.
+									.table-head-el Поставщик/производитель
+									.table-head-el фасовка/упаковка
+									.table-head-el Комментарии
+								.table-body
+									- for (var i = 0; i < 8; i++)
+										.table-body-row
+
+											.table-body-el-name Ключевая продукция
+												+icon("arrow-down","icon")
+											.table-body-el лосось #{i}
+											
+											.table-body-el-name Цена за кг/руб.
+											.table-body-el 25
+											
+											.table-body-el-name Поставщик/производитель
+											.table-body-el 
+												input(type="text")
+											
+											.table-body-el-name фасовка/упаковка
+											.table-body-el 
+												input(type="text")
+											
+											.table-body-el-name Комментарии
+											.table-body-el 
+												input(type="text")
+
+							.table-footer
+								a(href="#").table-footer-get Отправить 
+						.table-more
+							a(href="#").table-more-get посмотреть список всех продуктов
+								//- .tender-table
+							//- 	table
+							//- 		thead
+							//- 			tr
+							//- 				th Ключевая продукция
+							//- 				th Цена за кг/руб.
+							//- 				th Поставщик/производитель
+							//- 				th фасовка/упаковка
+							//- 				th Комментарии
+							//- 		tbody
+							//- 			- for (var i = 0; i < 16; i++)
+							//- 				tr
+							//- 					td лосось #{i}
+							//- 					td 25
+							//- 					td
+							//- 						input(type="text")
+							//- 					td
+							//- 						input(type="text")
+							//- 					td
+							//- 						input(type="text")
 	//block section-table end

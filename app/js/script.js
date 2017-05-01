@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+
+	//slide table row height
+	$('.table-body-el-name').click(function(){
+		$(this).parent().toggleClass('table-body-row--full');
+	})
+	//scoll
+		$(".table-body").mCustomScrollbar({
+		  autoDraggerLength: false // size druger
+		});
+
 	//slider
 	$(".wrap-slider").owlCarousel({
 	 items : 4,
@@ -32,7 +42,7 @@ $(document).ready(function(){
 	//toggle tab
 	$('.section-princip-tab-title').click(function() {
 		$('.section-princip-tab-title').not(this).parent().find('.section-princip-tab-list').slideUp();
-		$(this).parent().find('.section-princip-tab-list').slideDown();
+		$(this).parent().find('.section-princip-tab-list').slideToggle();
 	});
 
 
