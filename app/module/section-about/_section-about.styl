@@ -1,15 +1,25 @@
 .section-about
 	bg-full()
 	bgi('bg-1.jpg')
+	min-height 100vh!important
 	+below(1440px)
 		height 100vh!important
-		.fp-tableCell
-			height 100vh!important
+	+below(768px)
+		height auto!important
+		min-height auto!important
+	.fp-tableCell
+		+below(768px)
+			height auto!important
+		//min-height 100vh!important
+	.section-filter-wraper
+		height 100vh
+		+below(768px)
+			height auto
 .section-history-wrap
 	+below(1200px)
 		display block
 	+below(768px)
-		margin-top 35%
+		margin 100px 0
 	center(1200px,0)
 	flex(between)
 	align-items flex-start
@@ -51,7 +61,8 @@
 		line-height initial
 	font-family Roboto
 	font-size 16px
-	line-height 32px
 	color white
 	width 50%
+	line-height 20px
+	font-weight 200
 	

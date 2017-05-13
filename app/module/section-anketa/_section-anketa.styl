@@ -1,2 +1,87 @@
-/*! block section-anketa*/
-/*!block section-anketa end */
+.section-anket
+	+below(1200px)
+		padding 40px 0 0 0px
+		height auto
+	
+	bgi('bg-7.jpg')
+	bg-full()
+	.section-filter-wraper
+		+below(1200px)
+			height auto
+			margin-bottom 20px
+		height 100vh
+		.main-cont
+			center(1200px,10px)
+			flex(mid)
+			fl()
+.anket-title
+	+below(768px)
+		text-align center
+		width 100%
+		display block
+		font-size 14px
+		padding 10px
+	border-radius 10px
+	background white
+	color orange
+	display inline-block
+	padding 10px 50px
+	margin-bottom 20px
+	font-size 18px
+	up()
+	font-weight bold 
+
+//.section 
+//.section-anket 
+//.section-filter 
+//.section-filter-wraper 
+//.main-cont 
+.section-anket-wrap 
+	width 100%
+//.anket-title 
+.anket 
+	br(10px)
+	padding 30px 20px
+	background orange
+	width 100% 
+	color white
+	+below(768px)
+		margin-bottom 30px
+.anket-row 
+	+below(768px)
+		fw()
+	flex(between)
+	margin-bottom 10px
+.anket-item 
+	+below(768px)
+		width 100%
+	width 49%
+.anket-row-title 
+	+below(1200px)
+		font-size 11px
+	up()
+	font-weight bold
+	margin-bottom 10px
+.anket-text 
+	textarea
+		border 0px
+		width 100%
+		height 10vh
+		color black
+.anket-item--single 
+	width 100%
+	.anket-row-title 
+		margin-bottom 0
+	.anket-title-sub 
+		font-size 12px
+		margin-bottom 10px
+.anket-get 
+	flex(mid)
+	a
+		+below(768px)
+			width 100%
+			text-align center
+		@extend .btn
+		background white
+		color black
+		padding 10px 50px 

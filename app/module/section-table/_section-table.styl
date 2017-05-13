@@ -4,6 +4,7 @@
 		height auto
 	bgi('bg-1.jpg') 
 	bg-full()
+	background-attachment fixed
 //.section-filter 
 .section-table-wrap 
 	+below(768px)
@@ -81,6 +82,7 @@
 		&:hover
 			cp()
 		.icon
+			tr(all)
 			size 20px
 			fill white
 			margin-left 10px
@@ -95,7 +97,7 @@
 		background none
 		padding 10px
 		margin-bottom 20px
-		border 1px solid white
+		border 1px solid rgba(255, 255, 255, 0.26)
 		justify-content initial
 		height 110px
 		overflow hidden 
@@ -115,6 +117,9 @@
 			z-index 20
 .table-body-row--full
 	height auto!important	
+	background #a85008
+	.icon
+		transform rotate(180deg)
 .table-body-el
 	+below(1024px)
 		font-size 11px

@@ -1,4 +1,43 @@
 .footer	
+	+below(1440px)
+		margin-top 0
+	+below(768px)
+		padding 20px 0
 	width 100%
-	background blue
-	height 100px
+	background-color #06396d
+	padding 50px 0
+	margin-top 15px
+	.main-cont 
+		center(1200px,10px)
+//.footer 
+.footer-wrap 
+	+below(768px)
+		fw()
+	flex(between)
+.footer-text 
+	+below(768px)
+		width 100%
+		text-align center
+	text-shadow 0 4px 57px rgba(0, 0, 0, 0.2)
+	color #89a9c9
+.footer-menu 
+	+below(768px)
+		width 100%
+		text-align center
+		margin 20px 0
+	width 50%
+	flex(around)
+.footer-menu-el 
+	+below(768px)
+		font-size 10px 
+	color white
+	up()
+.footer-soc 
+	+below(768px)
+		width 100%
+		text-align center
+.footer-soc-el 
+	.icon 
+		fill white
+		size 20px
+		margin-right 20px

@@ -11,7 +11,8 @@
 		"section-table":"section-table",
 		"section-anketa":"section-anketa",
 		"section-postavshick":"section-postavshick",
-		"menu":"menu"
+		"menu":"menu",
+		"footer":"footer"
 	},
 	"page":{
 		"index":"index",

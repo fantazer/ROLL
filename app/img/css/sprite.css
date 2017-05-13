@@ -8,7 +8,7 @@
     display: inline-block;
     background-image: url("../svg/sprite.svg");
     background-repeat: no-repeat;
-    background-size: 51.2em 869.6em;
+    background-size: 51.2em 857.4em;
 }
 
 .no-svg .icon:before {
@@ -181,15 +181,15 @@
 
   .icon.soc-instagram:before {
       background-position: 0em -699em;
-      width: 29.1319em;
-      height: 29.1319em;
+      width: 16.906299999999998em;
+      height: 16.906299999999998em;
   }
 
 
 
 
   .icon.soc-twitter:before {
-      background-position: 0em -728.2em;
+      background-position: 0em -716em;
       width: 41.015499999999996em;
       height: 41.015499999999996em;
   }
@@ -198,7 +198,7 @@
 
 
   .icon.soc-vk:before {
-      background-position: 0em -769.3em;
+      background-position: 0em -757.1em;
       width: 51.2em;
       height: 51.2em;
   }
@@ -207,7 +207,7 @@
 
 
   .icon.star:before {
-      background-position: 0em -820.5em;
+      background-position: 0em -808.3em;
       width: 49.0727em;
       height: 49.0727em;
   }

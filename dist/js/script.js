@@ -68,7 +68,8 @@ $(document).ready(function(){
 	var viewer = function() {
 		$('.global').fullpage({
 				scrollBar:true,
-				scrollOverflow:true
+				scrollOverflow:true,
+				scrollingSpeed: 1700,
 			});
 	}
 

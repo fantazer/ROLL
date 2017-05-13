@@ -1,3 +1,39 @@
 mixin section-anketa()
 	//block section-anketa
+	.section.section-anket
+		.section-filter
+		.section-filter-wraper
+			.main-cont
+				.section-anket-wrap
+					.anket-title Анкета поставщика
+					.anket
+						.anket-row
+							.anket-item
+								.anket-row-title Название компании*
+								.anket-text
+									textarea(name="", cols="30", rows="10")
+							.anket-item
+								.anket-row-title Где находится ваше производство/склад?*
+								.anket-text
+									textarea(name="", cols="30", rows="10")
+						.anket-row
+							.anket-item.anket-item--single
+								.anket-row-title Кратко опишите вашу компанию*
+								.anket-title-sub (Род деятельсности, колличество лет на рынке, система логистики)
+								.anket-text
+									textarea(name="", cols="30", rows="10")
+						.anket-row
+							.anket-item
+								.anket-row-title Какие позиции вы готовы поставлять и по какой цене?*
+								.anket-text
+									textarea(name="", cols="30", rows="10")
+							.anket-item
+								.anket-row-title  Укажите контактное лицо для связи*
+								.anket-text
+									textarea(name="", cols="30", rows="10")
+						.anket-get
+							a(href="#") Отправить
+		+footer()
+
+
 	//block section-anketa end
