@@ -2941,10 +2941,10 @@ body {
   text-align: center;
   color: #ff5c00;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 20px 0;
+  padding: 18px 0;
 }
 @media only screen and (max-width: 1440px) {
   .section-princip-tab-title {
